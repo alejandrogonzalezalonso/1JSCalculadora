@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css" />
+    <script src="calculadora.js"></script>    
+    
+</head>
+<body>
+    <!--Crear la tabla  y dentro una fila con sus columnas-->
+    <table>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="input1" value="">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="input2" value="">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="res" value="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" onclick="setValue(1)" value="1">
+            </td>
+            <td>
+                <input type="button" onclick="setValue(2)" value="2">
+            </td>
+            <td>
+                <input type="button" onclick="setValue(3)" value="3">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" onclick="setValue(4)" value="4">
+            </td>
+            <td>
+                <input type="button" onclick="setValue(5)" value="5">
+            </td>
+            <td>
+                <input type="button" onclick="setValue(6)" value="6">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" onclick="setValue(7)" value="7">
+            </td>
+            <td>
+                <input type="button" onclick="setValue(8)" value="8">
+            </td>
+            <td>
+                <input type="button" onclick="setValue(9)" value="9">
+            </td>
+            <td>
+                <input type="button" onclick="sum()" value="+">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" onclick="setValue(0)" value="0">
+            </td>
+            <td>
+                <input type="button" onclick="resultado()" value="=">
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

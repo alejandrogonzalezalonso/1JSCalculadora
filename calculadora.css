@@ -1,0 +1,10 @@
+table{
+    border:1px solid red;
+}
+td{
+    border:1px solid red;
+}
+input{
+    align-content: center;
+    width: 100%;
+}
